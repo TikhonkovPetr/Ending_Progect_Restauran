@@ -1,0 +1,18 @@
+﻿<Window x:Class="WpfLibrary1.CreateObject.CreateTable"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfLibrary1.CreateObject"
+        mc:Ignorable="d"
+        Title="CreateTable" Height="450" Width="600">
+    <Grid>
+        <Button Content="Назад" HorizontalAlignment="Left" Margin="30,329,0,0" VerticalAlignment="Top" Height="65" Width="120" FontSize="20" Click="Button_Click_Back"/>
+        <Button Content="Создать столик" HorizontalAlignment="Left" Margin="400,329,0,0" VerticalAlignment="Top" Height="65" Width="164" FontSize="20" Click="Button_Click_Create"/>
+        <Label Content="Указать количество мест за столом" HorizontalAlignment="Left" Margin="10,81,0,0" VerticalAlignment="Top" FontSize="20"/>
+        <Label Content="Создание столика" HorizontalAlignment="Center" Margin="0,10,0,0" VerticalAlignment="Top" FontSize="22"/>
+        <Label x:Name="LabelNum" Content="0" HorizontalAlignment="Left" Margin="204,167,0,0" VerticalAlignment="Top" Width="50" Height="50" FontSize="25"/>
+        <Button Content=">" HorizontalAlignment="Left" Margin="224,217,0,0" VerticalAlignment="Top" Width="30" Height="36" FontSize="25" Click="Button_Click_Plus"/>
+        <Button Content="&#60;" HorizontalAlignment="Left" Margin="194,217,0,0" VerticalAlignment="Top" Width="30" Height="36" FontSize="25" Click="Button_Click_Minus"/>
+    </Grid>
+</Window>

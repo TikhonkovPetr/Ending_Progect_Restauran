@@ -1,0 +1,16 @@
+﻿<Window x:Class="WpfLibrary1.MenuBlud1"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfLibrary1"
+        mc:Ignorable="d"
+        Title="MenuBlud1" Height="600" Width="800">
+    <Grid>
+        <DataGrid x:Name="Data_Dish" AutoGenerateColumns="True" ItemsSource="{Binding}" Margin="170,45,230,40" FontSize="18"/>
+        <Button Content="Назад" HorizontalAlignment="Left" Margin="10,479,0,0" VerticalAlignment="Top" Height="65" Width="120" FontSize="20" Click="Button_Click_Back"/>
+        <Label Content="Меню ресторана" HorizontalAlignment="Left" Margin="280,10,0,0" VerticalAlignment="Top" Height="40" Width="180" FontSize="20"/>
+        <Button Content="Добавить блюдо" HorizontalAlignment="Left" Margin="600,479,0,0" VerticalAlignment="Top" Height="65" Width="160" FontSize="20" Click="Button_Click_Add"/>
+        <Button Content="Удалить блюдо" HorizontalAlignment="Left" Margin="600,384,0,0" VerticalAlignment="Top" Height="65" Width="160" FontSize="20" Click="Button_Click_Dell"/>
+    </Grid>
+</Window>

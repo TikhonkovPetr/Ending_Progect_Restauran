@@ -1,0 +1,15 @@
+﻿<Window x:Class="WpfLibrary1.RedZakaz_Bluda.DellWaiter"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfLibrary1.RedZakaz_Bluda"
+        mc:Ignorable="d"
+        Title="DellWaiter" Height="250" Width="350">
+    <Grid>
+        <Label Content="Удаление" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" FontSize="20"/>
+        <Label Content="Подтверждение удаление официанта. &#10;Вы подтверждаете удаление&#10;официанта?" HorizontalAlignment="Left" Margin="10,52,0,0" VerticalAlignment="Top" FontSize="18"/>
+        <Button Content="Нет" HorizontalAlignment="Left" Margin="15,141,0,0" VerticalAlignment="Top" FontSize="20" Height="50" Width="70" Click="Button_No"/>
+        <Button Content="Да" HorizontalAlignment="Left" Margin="258,141,0,0" VerticalAlignment="Top" FontSize="20" Height="50" Width="70" Click="Button_Yes"/>
+    </Grid>
+</Window>

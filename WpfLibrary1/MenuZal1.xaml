@@ -1,0 +1,17 @@
+﻿<Window x:Class="WpfLibrary1.MenuZal1"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfLibrary1"
+        mc:Ignorable="d"
+        Title="MenuZal1" Height="450" Width="800">
+    <Grid>
+        <DataGrid x:Name="Data_Table" ItemsSource="{Binding}" AutoGenerateColumns="True" Margin="50,45,50,110">
+        </DataGrid>
+        <Button Content="Назад" HorizontalAlignment="Left" Margin="30,329,0,0" VerticalAlignment="Top" Height="65" Width="120" FontSize="20" Click="Button_Click_Back"/>
+        <Button Content="Удалить столик" HorizontalAlignment="Center" Margin="0,329,0,0" VerticalAlignment="Top" Height="65" Width="148" FontSize="20" Click="Button_Click_Dell"/>
+        <Button Content="Добавить столик" HorizontalAlignment="Left" Margin="611,329,0,0" VerticalAlignment="Top" Height="65" Width="164" FontSize="20" Click="Button_Click_AddTable"/>
+        <Label Content="Меню столов" HorizontalAlignment="Center" Margin="0,10,0,0" VerticalAlignment="Top" Height="30" Width="130" FontSize="18"/>
+    </Grid>
+</Window>
