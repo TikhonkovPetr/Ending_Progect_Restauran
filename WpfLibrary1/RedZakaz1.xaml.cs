@@ -135,6 +135,7 @@ namespace WpfLibrary1
                 WpfLibrary1.RedZakaz_Bluda.ClearTable clearTable = new WpfLibrary1.RedZakaz_Bluda.ClearTable();
                 clearTable.ShowDialog();
             }
+            this.Close();
         }
 
         private void Button_Click_Create(object sender, RoutedEventArgs e)
